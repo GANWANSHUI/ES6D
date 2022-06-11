@@ -1,4 +1,4 @@
-# ES6D
+# ES6D (CVPR 2022)
 
 In ES6D, we propose an efficient backbone for real-time instance-level 6D pose estimation. Besides, we propose A(M)GPD to solve the ambiguity problem in the widely used ADD-S metric.
 For more details, please check our [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Mo_ES6D_A_Computation_Efficient_and_Symmetry-Aware_6D_Pose_Regression_Framework_CVPR_2022_paper.pdf), [supplement](https://openaccess.thecvf.com/content/CVPR2022/supplemental/Mo_ES6D_A_Computation_CVPR_2022_supplemental.pdf)
@@ -58,20 +58,20 @@ conda env create -f es6d.yaml
 ## T-LESS
 
 ### data pre-processing
-```
+```bash
 pack each training and testing instance into .mat. 
 
 It may occur the error due to the duplicate file name, just simply retry the order.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-python ./datasets/tless/tless_preparation.py --tless_path ./datasets/tless --train_set True
+$ python ./datasets/tless/tless_preparation.py --tless_path ./datasets/tless --train_set True
 
 If succeed, it will have ./datasets/tless/train_pbr_mat and ./datasets/tless/train_pbr_mat.txt for the dataloader
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-python ./datasets/tless/tless_preparation.py --tless_path ./datasets/tless --train_set False
+$ python ./datasets/tless/tless_preparation.py --tless_path ./datasets/tless --train_set False
 
 If succeed, it will have ./datasets/tless/test_primesense_gt_mask_mat and ./datasets/tless/test_primesense_gt_mask_mat.txt for the dataloader
 
@@ -113,10 +113,11 @@ This work can not be finished well without the following reference, many thanks 
 
 Please cite ES6D if you use this repository in your publications:
 ```
-@article{mo2022es6d,
+@inproceedings{mo2022es6d,
   title={ES6D: A Computation Efficient and Symmetry-Aware 6D Pose Regression Framework},
   author={Mo, Ningkai and Gan, Wanshui and Yokoya, Naoto and Chen, Shifeng},
-  journal={arXiv preprint arXiv:2204.01080},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6718--6727},
   year={2022}
 }
 ```
