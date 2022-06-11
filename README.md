@@ -27,37 +27,37 @@ conda env create -f es6d.yaml
   <summary> Directory structure for the download datasets (click to expand; only list used files) </summary>
 
     datasets
-    ©À©¤©¤ tless     # http://cmp.felk.cvut.cz/t-less/download.html
-    ©¦   ©¦©¤©¤ train_pbr
-    ©¦   ©¦    ©À©¤©¤ 000000
-    ©¦   ©¦    ©¦   ©¸©¤©¤ depth
-    ©¦   ©¦    ©¦   ©¸©¤©¤ mask
-    ©¦   ©¦    ©¦   ©¸©¤©¤ mask_visib
-    ©¦   ©¦    ©¦   ©¸©¤©¤ rgb
-    ©¦   ©¦    ©¦   ©¸©¤©¤ scene_camera.json
-    ©¦   ©¦    ©¦   ©¸©¤©¤ scene_gt.json
-    ©¦   ©¦    ©¦   ©¸©¤©¤ scene_gt_info.json
-    ©¦   ©¦    ©À©¤©¤ 000001
-    ©¦   ©¦ 
-    ©¦   ©¦©¤©¤ test_primesense
-    ©¦   ©¦    ©À©¤©¤ 000001
-    ©¦   ©¦    ©¦   ©¸©¤©¤ depth
-    ©¦   ©¦    ©¦   ©¸©¤©¤ mask_visib
-    ©¦   ©¦    ©¦   ©¸©¤©¤ mask_visib_pred // (please find the prediction result from Stablepose)
-    ©¦   ©¦    ©¦   ©¸©¤©¤ rgb
-    ©¦   ©¦    ©¦   ©¸©¤©¤ scene_camera.json
-    ©¦   ©¦    ©¦   ©¸©¤©¤ scene_gt.json
-    ©¦   ©¦    ©¦   ©¸©¤©¤ scene_gt_info.json
-    ©¦   ©¦    ©À©¤©¤ 000002
-    ©¦ 
-    ©¦
-    ©À©¤©¤ ycb     # Link: https://rse-lab.cs.washington.edu/projects/posecnn/
-        ©¸©¤©¤
+    å¿µå²¸å²¸ tless     # http://cmp.felk.cvut.cz/t-less/download.html
+    å²«   å²«å²¸å²¸ train_pbr
+    å²«   å²«    å¿µå²¸å²¸ 000000
+    å²«   å²«    å²«   å¼©å²¸å²¸ depth
+    å²«   å²«    å²«   å¼©å²¸å²¸ mask
+    å²«   å²«    å²«   å¼©å²¸å²¸ mask_visib
+    å²«   å²«    å²«   å¼©å²¸å²¸ rgb
+    å²«   å²«    å²«   å¼©å²¸å²¸ scene_camera.json
+    å²«   å²«    å²«   å¼©å²¸å²¸ scene_gt.json
+    å²«   å²«    å²«   å¼©å²¸å²¸ scene_gt_info.json
+    å²«   å²«    å¿µå²¸å²¸ 000001
+    å²«   å²« 
+    å²«   å²«å²¸å²¸ test_primesense
+    å²«   å²«    å¿µå²¸å²¸ 000001
+    å²«   å²«    å²«   å¼©å²¸å²¸ depth
+    å²«   å²«    å²«   å¼©å²¸å²¸ mask_visib
+    å²«   å²«    å²«   å¼©å²¸å²¸ mask_visib_pred // (please find the prediction result from Stablepose)
+    å²«   å²«    å²«   å¼©å²¸å²¸ rgb
+    å²«   å²«    å²«   å¼©å²¸å²¸ scene_camera.json
+    å²«   å²«    å²«   å¼©å²¸å²¸ scene_gt.json
+    å²«   å²«    å²«   å¼©å²¸å²¸ scene_gt_info.json
+    å²«   å²«    å¿µå²¸å²¸ 000002
+    å²« 
+    å²«
+    å¿µå²¸å²¸ ycb     # Link: https://rse-lab.cs.washington.edu/projects/posecnn/
+        å¼©å²¸å²¸
 </details>
 
 ## T-LESS
 
-### dataset pre-processing
+### data pre-processing
 ```
 pack each training and testing instance into .mat. 
 
