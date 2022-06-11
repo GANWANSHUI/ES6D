@@ -1,0 +1,30 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="yacs" />
+            <item index="1" class="java.lang.String" itemvalue="six" />
+            <item index="2" class="java.lang.String" itemvalue="tb-nightly" />
+            <item index="3" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="4" class="java.lang.String" itemvalue="h5py" />
+            <item index="5" class="java.lang.String" itemvalue="yapf" />
+            <item index="6" class="java.lang.String" itemvalue="flake8" />
+            <item index="7" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="8" class="java.lang.String" itemvalue="gdown" />
+            <item index="9" class="java.lang.String" itemvalue="imageio" />
+            <item index="10" class="java.lang.String" itemvalue="future" />
+            <item index="11" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="12" class="java.lang.String" itemvalue="keras" />
+            <item index="13" class="java.lang.String" itemvalue="isort" />
+            <item index="14" class="java.lang.String" itemvalue="Cython" />
+            <item index="15" class="java.lang.String" itemvalue="tensorflow-gpu" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

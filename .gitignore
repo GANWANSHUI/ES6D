@@ -1,0 +1,4 @@
+*.pcd
+/datasets/tless/test_primesense
+/datasets/tless/train_pbr
+/bop_toolkit-master
