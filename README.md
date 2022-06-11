@@ -27,32 +27,32 @@ conda env create -f es6d.yaml
   <summary> Directory structure for the download datasets (click to expand; only list used files) </summary>
 
     datasets
-    念岸岸 tless     # http://cmp.felk.cvut.cz/t-less/download.html
-    岫   岫岸岸 train_pbr
-    岫   岫    念岸岸 000000
-    岫   岫    岫   弩岸岸 depth
-    岫   岫    岫   弩岸岸 mask
-    岫   岫    岫   弩岸岸 mask_visib
-    岫   岫    岫   弩岸岸 rgb
-    岫   岫    岫   弩岸岸 scene_camera.json
-    岫   岫    岫   弩岸岸 scene_gt.json
-    岫   岫    岫   弩岸岸 scene_gt_info.json
-    岫   岫    念岸岸 000001
-    岫   岫 
-    岫   岫岸岸 test_primesense
-    岫   岫    念岸岸 000001
-    岫   岫    岫   弩岸岸 depth
-    岫   岫    岫   弩岸岸 mask_visib
-    岫   岫    岫   弩岸岸 mask_visib_pred // (please find the prediction result from Stablepose)
-    岫   岫    岫   弩岸岸 rgb
-    岫   岫    岫   弩岸岸 scene_camera.json
-    岫   岫    岫   弩岸岸 scene_gt.json
-    岫   岫    岫   弩岸岸 scene_gt_info.json
-    岫   岫    念岸岸 000002
-    岫 
-    岫
-    念岸岸 ycb     # Link: https://rse-lab.cs.washington.edu/projects/posecnn/
-        弩岸岸
+    |-- tless     # http://cmp.felk.cvut.cz/t-less/download.html
+    |   |-- train_pbr
+    |   |     |-- 000000
+    |   |     |     |-- depth
+    |   |     |     |-- mask
+    |   |     |     |-- mask_visib
+    |   |     |     |-- rgb
+    |   |     |     |-- scene_camera.json
+    |   |     |     |-- scene_gt.json
+    |   |     |     |-- scene_gt_info.json
+    |   |     |-- 000001
+    |   | 
+    |   |-- test_primesense
+    |   |     |-- 000001
+    |   |     |     |-- depth
+    |   |     |     |-- mask_visib
+    |   |     |     |-- mask_visib_pred // (please find the prediction result from Stablepose)
+    |   |     |     |-- rgb
+    |   |     |     |-- scene_camera.json
+    |   |     |     |-- scene_gt.json
+    |   |     |     |-- scene_gt_info.json
+    |   |     |-- 000002
+    | 
+    |
+    |-- ycb     # Link: https://rse-lab.cs.washington.edu/projects/posecnn/
+        
 </details>
 
 ## T-LESS
