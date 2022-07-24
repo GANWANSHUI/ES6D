@@ -28,7 +28,7 @@ conda env create -f es6d.yaml
 
     datasets
     |-- tless     # http://cmp.felk.cvut.cz/t-less/download.html
-    |   |-- train_pbr
+    |   |-- train_pbr # https://bop.felk.cvut.cz/media/data/bop_datasets/tless_train_pbr.zip
     |   |     |-- 000000
     |   |     |     |-- depth
     |   |     |     |-- mask
@@ -74,6 +74,9 @@ If succeed, it will have ./datasets/tless/train_pbr_mat and ./datasets/tless/tra
 $ python ./datasets/tless/tless_preparation.py --tless_path ./datasets/tless --train_set False
 
 If succeed, it will have ./datasets/tless/test_primesense_gt_mask_mat and ./datasets/tless/test_primesense_gt_mask_mat.txt for the dataloader
+
+
+At last, please down the downsample pcd files (https://www.dropbox.com/sh/zxq5lx71zpq4nts/AAALVgeSvszpHEy8CUBr8iala?dl=0), and place the models into ./datasets/tless
 
 ```
 
