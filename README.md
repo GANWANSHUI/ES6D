@@ -39,7 +39,7 @@ conda env create -f es6d.yaml
     |   |     |     |-- scene_gt_info.json
     |   |     |-- 000001
     |   | 
-    |   |-- test_primesense
+    |   |-- test_primesense  # https://github.com/GodZarathustra/stablepose_pytorch
     |   |     |-- 000001
     |   |     |     |-- depth
     |   |     |     |-- mask_visib
