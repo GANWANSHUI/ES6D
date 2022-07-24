@@ -76,7 +76,7 @@ $ python ./datasets/tless/tless_preparation.py --tless_path ./datasets/tless --t
 If succeed, it will have ./datasets/tless/test_primesense_gt_mask_mat and ./datasets/tless/test_primesense_gt_mask_mat.txt for the dataloader
 
 
-At last, please down the downsample pcd files (https://www.dropbox.com/sh/zxq5lx71zpq4nts/AAALVgeSvszpHEy8CUBr8iala?dl=0), and place the models into ./datasets/tless
+At last, please download the downsample pcd files (https://www.dropbox.com/sh/zxq5lx71zpq4nts/AAALVgeSvszpHEy8CUBr8iala?dl=0), and place the models into ./datasets/tless
 
 ```
 
