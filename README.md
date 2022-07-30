@@ -11,8 +11,10 @@ For more details, please check our [paper](https://openaccess.thecvf.com/content
 
 
 ### Update
+
+- `2022.07.30`: **add the tutorial for GP construction, you can try it with your own cad mode!.**
 - `2022.06.12`: **Initial release.**
-- To do: the experiment details on YCB-Video dataset, the details about the GP construction.    
+- To do: the experiment details on YCB-Video dataset.    
 
 ### Installation
 ```
