@@ -63,9 +63,9 @@ def main():
     if dataset == 'tless':
         # tless config
         ball_ids = []  # the class indexes of spherical objects
-        # symmetry_ids = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 22, 23, 24, 25, 26, 27, 28,
-        #                 29]  # the class indexes of other symmetric objects, start with 0
-        symmetry_ids = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        symmetry_ids = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 22, 23, 24, 25, 26, 27, 28,
+                        29]  # the class indexes of other symmetric objects, start with 0
+
         errs = [.015, .015, .015, .015, .015, .015, .015, 0.02, .015, .015, 0.02, 0.04, .015, .015, .015, .015, .015,
                 .015, .015, .015, .015, .015, 0.02, .015, .015, 0.02, .015]
     elif dataset == 'ycb':
